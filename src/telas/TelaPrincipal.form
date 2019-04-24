@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="0"/>
+    <Property name="title" type="java.lang.String" value="Barbearia"/>
+    <Property name="background" type="java.awt.Color" editor="com.sun.beans.editors.ColorEditor">
+      <SerializedValue value="-84,-19,0,5,115,114,0,14,106,97,118,97,46,97,119,116,46,67,111,108,111,114,1,-91,23,-125,16,-113,51,117,2,0,5,70,0,6,102,97,108,112,104,97,73,0,5,118,97,108,117,101,76,0,2,99,115,116,0,27,76,106,97,118,97,47,97,119,116,47,99,111,108,111,114,47,67,111,108,111,114,83,112,97,99,101,59,91,0,9,102,114,103,98,118,97,108,117,101,116,0,2,91,70,91,0,6,102,118,97,108,117,101,113,0,126,0,2,120,112,0,0,0,0,-1,-64,-64,-64,112,112,112"/>
+    </Property>
+    <Property name="focusCycleRoot" type="boolean" value="false"/>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="com.sun.beans.editors.ColorEditor">
+          <SerializedValue value="-84,-19,0,5,115,114,0,14,106,97,118,97,46,97,119,116,46,67,111,108,111,114,1,-91,23,-125,16,-113,51,117,2,0,5,70,0,6,102,97,108,112,104,97,73,0,5,118,97,108,117,101,76,0,2,99,115,116,0,27,76,106,97,118,97,47,97,119,116,47,99,111,108,111,114,47,67,111,108,111,114,83,112,97,99,101,59,91,0,9,102,114,103,98,118,97,108,117,101,116,0,2,91,70,91,0,6,102,118,97,108,117,101,113,0,126,0,2,120,112,0,0,0,0,-1,64,64,64,112,112,112"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="22" pref="22" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="1">
+                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                          <Component id="comboClienteUC" min="-2" pref="145" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                          <Component id="btnAdd" min="-2" pref="150" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                  <Component id="jLabel1" min="-2" pref="202" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="btnSair" min="-2" pref="71" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                  <Component id="btnRemover" min="-2" pref="150" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="156" max="-2" attributes="0"/>
+                                  <Component id="btnAtualizar" min="-2" pref="150" max="-2" attributes="0"/>
+                                  <EmptySpace pref="54" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Component id="jScrollPane1" min="-2" pref="901" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="btnCadsCliente" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                      <Component id="btnCadasProdutos" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="103" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="btnCadastroBebida" min="-2" pref="150" max="-2" attributes="0"/>
+                      <Component id="btnEdservicos" min="-2" pref="150" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="98" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="btnFinalizar" min="-2" pref="150" max="-2" attributes="0"/>
+                      <Component id="btnAgenda" min="-2" pref="150" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="btnRelatorio" pref="170" max="32767" attributes="1"/>
+                      <Component id="btnDias" max="32767" attributes="1"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="btnSair" pref="0" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                          <Component id="btnAtualizar" min="-2" pref="37" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jLabel1" min="-2" pref="44" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="btnAdd" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                              <Component id="btnRemover" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                              <Component id="comboClienteUC" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="324" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="btnCadsCliente" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="btnFinalizar" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnCadastroBebida" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                          <Component id="btnCadasProdutos" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnEdservicos" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                          <Component id="btnAgenda" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="btnDias" min="-2" pref="38" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="btnRelatorio" min="-2" pref="43" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="41" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="MS UI Gothic" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Barbearia Country"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="tabela">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="11" rowCount="0">
+                    <Column editable="false" title="Data" type="java.lang.String"/>
+                    <Column editable="false" title="Cliiente" type="java.lang.Object"/>
+                    <Column editable="true" title="Corte" type="java.lang.Object"/>
+                    <Column editable="true" title="Barba" type="java.lang.Object"/>
+                    <Column editable="true" title="Sobrancelhas" type="java.lang.Boolean"/>
+                    <Column editable="true" title="Quimica" type="java.lang.Object"/>
+                    <Column editable="true" title="Bebidas" type="java.lang.Object"/>
+                    <Column editable="true" title="Un" type="java.lang.Integer"/>
+                    <Column editable="true" title="Produtos" type="java.lang.Object"/>
+                    <Column editable="true" title="Un" type="java.lang.Integer"/>
+                    <Column editable="true" title="Total" type="java.lang.Double"/>
+                  </Table>
+                </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="2">
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="25" resizable="false">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="25" resizable="false">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="columnSelectionAllowed" type="boolean" value="true"/>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="false" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tabelaMouseClicked"/>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tabelaMousePressed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="btnAdd">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Adicionar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAddActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnRelatorio">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Relatorio mensal"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRelatorioActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnDias">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Outros dias"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDiasActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCadsCliente">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Clientes"/>
+            <Property name="verticalTextPosition" type="int" value="1"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCadsClienteActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCadasProdutos">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Cadastro Produtos"/>
+            <Property name="horizontalAlignment" type="int" value="11"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCadasProdutosActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCadastroBebida">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Cadastro Bebida"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCadastroBebidaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnEdservicos">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Editar servi&#xe7;os"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEdservicosActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnAgenda">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Agendamentos"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAgendaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnFinalizar">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Finalizar dia"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFinalizarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnRemover">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="com.sun.beans.editors.FontEditor">
+              <SerializedValue value="-84,-19,0,5,115,114,0,13,106,97,118,97,46,97,119,116,46,70,111,110,116,-59,-95,53,-26,-52,-34,86,115,3,0,6,73,0,25,102,111,110,116,83,101,114,105,97,108,105,122,101,100,68,97,116,97,86,101,114,115,105,111,110,70,0,9,112,111,105,110,116,83,105,122,101,73,0,4,115,105,122,101,73,0,5,115,116,121,108,101,76,0,20,102,82,101,113,117,101,115,116,101,100,65,116,116,114,105,98,117,116,101,115,116,0,21,76,106,97,118,97,47,117,116,105,108,47,72,97,115,104,116,97,98,108,101,59,76,0,4,110,97,109,101,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,120,112,0,0,0,1,65,96,0,0,0,0,0,14,0,0,0,0,112,116,0,6,68,105,97,108,111,103,120"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Remover"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRemoverActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnAtualizar">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="com.sun.beans.editors.FontEditor">
+              <SerializedValue value="-84,-19,0,5,115,114,0,13,106,97,118,97,46,97,119,116,46,70,111,110,116,-59,-95,53,-26,-52,-34,86,115,3,0,6,73,0,25,102,111,110,116,83,101,114,105,97,108,105,122,101,100,68,97,116,97,86,101,114,115,105,111,110,70,0,9,112,111,105,110,116,83,105,122,101,73,0,4,115,105,122,101,73,0,5,115,116,121,108,101,76,0,20,102,82,101,113,117,101,115,116,101,100,65,116,116,114,105,98,117,116,101,115,116,0,21,76,106,97,118,97,47,117,116,105,108,47,72,97,115,104,116,97,98,108,101,59,76,0,4,110,97,109,101,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,120,112,0,0,0,1,65,96,0,0,0,0,0,14,0,0,0,0,112,116,0,6,68,105,97,108,111,103,120"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Atualizar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAtualizarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnSair">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="com.sun.beans.editors.FontEditor">
+              <SerializedValue value="-84,-19,0,5,115,114,0,13,106,97,118,97,46,97,119,116,46,70,111,110,116,-59,-95,53,-26,-52,-34,86,115,3,0,6,73,0,25,102,111,110,116,83,101,114,105,97,108,105,122,101,100,68,97,116,97,86,101,114,115,105,111,110,70,0,9,112,111,105,110,116,83,105,122,101,73,0,4,115,105,122,101,73,0,5,115,116,121,108,101,76,0,20,102,82,101,113,117,101,115,116,101,100,65,116,116,114,105,98,117,116,101,115,116,0,21,76,106,97,118,97,47,117,116,105,108,47,72,97,115,104,116,97,98,108,101,59,76,0,4,110,97,109,101,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,120,112,0,0,0,1,65,96,0,0,0,0,0,14,0,0,0,0,112,116,0,6,68,105,97,108,111,103,120"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Sair"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSairActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="componentes.UJComboBox" name="comboClienteUC">
+          <Properties>
+            <Property name="autocompletar" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

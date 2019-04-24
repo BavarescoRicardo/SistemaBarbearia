@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jScrollPane3" alignment="0" max="32767" attributes="1"/>
+                      <Component id="jScrollPane1" alignment="1" max="32767" attributes="1"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="1">
+                          <Component id="valorCorte" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="valorCortes" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="valorBarba" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="totalCortes" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="totalBarbas" alignment="0" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="valorBarbas" alignment="0" min="-2" pref="64" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                  <Component id="comboMeses" min="-2" pref="194" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="btnSel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="totalBruto" min="-2" pref="120" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="totalLiquido" min="-2" pref="120" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="208" max="-2" attributes="0"/>
+                          <Component id="btnFechar" min="-2" pref="93" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane3" min="-2" pref="170" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="212" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="btnFechar" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                              <Component id="jLabel3" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                              <Component id="totalLiquido" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="totalBruto" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="totalCortes" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="totalBarbas" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                          <Component id="valorCorte" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="valorCortes" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                          <Component id="valorBarba" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="valorBarbas" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="comboMeses" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
+                                      <Component id="btnSel" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="tabela">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="10" rowCount="0">
+                    <Column editable="false" title="Data" type="java.lang.String"/>
+                    <Column editable="false" title="Renda total Cortes" type="java.lang.Float"/>
+                    <Column editable="false" title="Renda total Barba" type="java.lang.Float"/>
+                    <Column editable="false" title="Quantia de cortes" type="java.lang.Integer"/>
+                    <Column editable="false" title="Quantia de barbas" type="java.lang.Integer"/>
+                    <Column editable="false" title="Gastos" type="java.lang.Float"/>
+                    <Column editable="true" title="Renda bebidas" type="java.lang.Float"/>
+                    <Column editable="true" title="Renda produtos" type="java.lang.Float"/>
+                    <Column editable="false" title="Renda bruta" type="java.lang.Float"/>
+                    <Column editable="true" title="Renda liquida" type="java.lang.Float"/>
+                  </Table>
+                </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0">
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="50" resizable="false">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="btnFechar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fechar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFecharActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Total bruto mensal: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="totalBruto">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Total liquido mensal"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="totalLiquido">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="1"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="tabela2">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="5" rowCount="0">
+                    <Column editable="true" title="Data" type="java.lang.String"/>
+                    <Column editable="false" title="Sobrancelhas" type="java.lang.Integer"/>
+                    <Column editable="false" title="Valor sobrancelhas" type="java.lang.Float"/>
+                    <Column editable="true" title="Quimica" type="java.lang.Integer"/>
+                    <Column editable="false" title="Valor quimicas" type="java.lang.Float"/>
+                  </Table>
+                </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0">
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="com.sun.beans.editors.FontEditor">
+              <SerializedValue value="-84,-19,0,5,115,114,0,13,106,97,118,97,46,97,119,116,46,70,111,110,116,-59,-95,53,-26,-52,-34,86,115,3,0,6,73,0,25,102,111,110,116,83,101,114,105,97,108,105,122,101,100,68,97,116,97,86,101,114,115,105,111,110,70,0,9,112,111,105,110,116,83,105,122,101,73,0,4,115,105,122,101,73,0,5,115,116,121,108,101,76,0,20,102,82,101,113,117,101,115,116,101,100,65,116,116,114,105,98,117,116,101,115,116,0,21,76,106,97,118,97,47,117,116,105,108,47,72,97,115,104,116,97,98,108,101,59,76,0,4,110,97,109,101,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,120,112,0,0,0,1,65,96,0,0,0,0,0,14,0,0,0,0,112,116,0,9,83,97,110,115,83,101,114,105,102,120"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="com.sun.beans.editors.ColorEditor">
+              <SerializedValue value="-84,-19,0,5,115,114,0,14,106,97,118,97,46,97,119,116,46,67,111,108,111,114,1,-91,23,-125,16,-113,51,117,2,0,5,70,0,6,102,97,108,112,104,97,73,0,5,118,97,108,117,101,76,0,2,99,115,116,0,27,76,106,97,118,97,47,97,119,116,47,99,111,108,111,114,47,67,111,108,111,114,83,112,97,99,101,59,91,0,9,102,114,103,98,118,97,108,117,101,116,0,2,91,70,91,0,6,102,118,97,108,117,101,113,0,126,0,2,120,112,0,0,0,0,-1,-1,-1,-1,112,112,112"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Total de cortes"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="totalCortes">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="com.sun.beans.editors.FontEditor">
+              <SerializedValue value="-84,-19,0,5,115,114,0,13,106,97,118,97,46,97,119,116,46,70,111,110,116,-59,-95,53,-26,-52,-34,86,115,3,0,6,73,0,25,102,111,110,116,83,101,114,105,97,108,105,122,101,100,68,97,116,97,86,101,114,115,105,111,110,70,0,9,112,111,105,110,116,83,105,122,101,73,0,4,115,105,122,101,73,0,5,115,116,121,108,101,76,0,20,102,82,101,113,117,101,115,116,101,100,65,116,116,114,105,98,117,116,101,115,116,0,21,76,106,97,118,97,47,117,116,105,108,47,72,97,115,104,116,97,98,108,101,59,76,0,4,110,97,109,101,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,120,112,0,0,0,1,65,96,0,0,0,0,0,14,0,0,0,0,112,116,0,6,68,105,97,108,111,103,120"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="com.sun.beans.editors.ColorEditor">
+              <SerializedValue value="-84,-19,0,5,115,114,0,14,106,97,118,97,46,97,119,116,46,67,111,108,111,114,1,-91,23,-125,16,-113,51,117,2,0,5,70,0,6,102,97,108,112,104,97,73,0,5,118,97,108,117,101,76,0,2,99,115,116,0,27,76,106,97,118,97,47,97,119,116,47,99,111,108,111,114,47,67,111,108,111,114,83,112,97,99,101,59,91,0,9,102,114,103,98,118,97,108,117,101,116,0,2,91,70,91,0,6,102,118,97,108,117,101,113,0,126,0,2,120,112,0,0,0,0,-1,-1,-1,-1,112,112,112"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="com.sun.beans.editors.FontEditor">
+              <SerializedValue value="-84,-19,0,5,115,114,0,13,106,97,118,97,46,97,119,116,46,70,111,110,116,-59,-95,53,-26,-52,-34,86,115,3,0,6,73,0,25,102,111,110,116,83,101,114,105,97,108,105,122,101,100,68,97,116,97,86,101,114,115,105,111,110,70,0,9,112,111,105,110,116,83,105,122,101,73,0,4,115,105,122,101,73,0,5,115,116,121,108,101,76,0,20,102,82,101,113,117,101,115,116,101,100,65,116,116,114,105,98,117,116,101,115,116,0,21,76,106,97,118,97,47,117,116,105,108,47,72,97,115,104,116,97,98,108,101,59,76,0,4,110,97,109,101,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,120,112,0,0,0,1,65,96,0,0,0,0,0,14,0,0,0,0,112,116,0,6,68,105,97,108,111,103,120"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="com.sun.beans.editors.ColorEditor">
+              <SerializedValue value="-84,-19,0,5,115,114,0,14,106,97,118,97,46,97,119,116,46,67,111,108,111,114,1,-91,23,-125,16,-113,51,117,2,0,5,70,0,6,102,97,108,112,104,97,73,0,5,118,97,108,117,101,76,0,2,99,115,116,0,27,76,106,97,118,97,47,97,119,116,47,99,111,108,111,114,47,67,111,108,111,114,83,112,97,99,101,59,91,0,9,102,114,103,98,118,97,108,117,101,116,0,2,91,70,91,0,6,102,118,97,108,117,101,113,0,126,0,2,120,112,0,0,0,0,-1,-1,-1,-1,112,112,112"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Total barbas"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="totalBarbas">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="com.sun.beans.editors.FontEditor">
+              <SerializedValue value="-84,-19,0,5,115,114,0,13,106,97,118,97,46,97,119,116,46,70,111,110,116,-59,-95,53,-26,-52,-34,86,115,3,0,6,73,0,25,102,111,110,116,83,101,114,105,97,108,105,122,101,100,68,97,116,97,86,101,114,115,105,111,110,70,0,9,112,111,105,110,116,83,105,122,101,73,0,4,115,105,122,101,73,0,5,115,116,121,108,101,76,0,20,102,82,101,113,117,101,115,116,101,100,65,116,116,114,105,98,117,116,101,115,116,0,21,76,106,97,118,97,47,117,116,105,108,47,72,97,115,104,116,97,98,108,101,59,76,0,4,110,97,109,101,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,120,112,0,0,0,1,65,96,0,0,0,0,0,14,0,0,0,0,112,116,0,6,68,105,97,108,111,103,120"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="com.sun.beans.editors.ColorEditor">
+              <SerializedValue value="-84,-19,0,5,115,114,0,14,106,97,118,97,46,97,119,116,46,67,111,108,111,114,1,-91,23,-125,16,-113,51,117,2,0,5,70,0,6,102,97,108,112,104,97,73,0,5,118,97,108,117,101,76,0,2,99,115,116,0,27,76,106,97,118,97,47,97,119,116,47,99,111,108,111,114,47,67,111,108,111,114,83,112,97,99,101,59,91,0,9,102,114,103,98,118,97,108,117,101,116,0,2,91,70,91,0,6,102,118,97,108,117,101,113,0,126,0,2,120,112,0,0,0,0,-1,-1,-1,-1,112,112,112"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="valorCorte">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="com.sun.beans.editors.FontEditor">
+              <SerializedValue value="-84,-19,0,5,115,114,0,13,106,97,118,97,46,97,119,116,46,70,111,110,116,-59,-95,53,-26,-52,-34,86,115,3,0,6,73,0,25,102,111,110,116,83,101,114,105,97,108,105,122,101,100,68,97,116,97,86,101,114,115,105,111,110,70,0,9,112,111,105,110,116,83,105,122,101,73,0,4,115,105,122,101,73,0,5,115,116,121,108,101,76,0,20,102,82,101,113,117,101,115,116,101,100,65,116,116,114,105,98,117,116,101,115,116,0,21,76,106,97,118,97,47,117,116,105,108,47,72,97,115,104,116,97,98,108,101,59,76,0,4,110,97,109,101,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,120,112,0,0,0,1,65,96,0,0,0,0,0,14,0,0,0,0,112,116,0,6,68,105,97,108,111,103,120"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="com.sun.beans.editors.ColorEditor">
+              <SerializedValue value="-84,-19,0,5,115,114,0,14,106,97,118,97,46,97,119,116,46,67,111,108,111,114,1,-91,23,-125,16,-113,51,117,2,0,5,70,0,6,102,97,108,112,104,97,73,0,5,118,97,108,117,101,76,0,2,99,115,116,0,27,76,106,97,118,97,47,97,119,116,47,99,111,108,111,114,47,67,111,108,111,114,83,112,97,99,101,59,91,0,9,102,114,103,98,118,97,108,117,101,116,0,2,91,70,91,0,6,102,118,97,108,117,101,113,0,126,0,2,120,112,0,0,0,0,-1,-1,-1,-1,112,112,112"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Valor Cortes"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="valorCortes">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="com.sun.beans.editors.FontEditor">
+              <SerializedValue value="-84,-19,0,5,115,114,0,13,106,97,118,97,46,97,119,116,46,70,111,110,116,-59,-95,53,-26,-52,-34,86,115,3,0,6,73,0,25,102,111,110,116,83,101,114,105,97,108,105,122,101,100,68,97,116,97,86,101,114,115,105,111,110,70,0,9,112,111,105,110,116,83,105,122,101,73,0,4,115,105,122,101,73,0,5,115,116,121,108,101,76,0,20,102,82,101,113,117,101,115,116,101,100,65,116,116,114,105,98,117,116,101,115,116,0,21,76,106,97,118,97,47,117,116,105,108,47,72,97,115,104,116,97,98,108,101,59,76,0,4,110,97,109,101,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,120,112,0,0,0,1,65,96,0,0,0,0,0,14,0,0,0,0,112,116,0,6,68,105,97,108,111,103,120"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="com.sun.beans.editors.ColorEditor">
+              <SerializedValue value="-84,-19,0,5,115,114,0,14,106,97,118,97,46,97,119,116,46,67,111,108,111,114,1,-91,23,-125,16,-113,51,117,2,0,5,70,0,6,102,97,108,112,104,97,73,0,5,118,97,108,117,101,76,0,2,99,115,116,0,27,76,106,97,118,97,47,97,119,116,47,99,111,108,111,114,47,67,111,108,111,114,83,112,97,99,101,59,91,0,9,102,114,103,98,118,97,108,117,101,116,0,2,91,70,91,0,6,102,118,97,108,117,101,113,0,126,0,2,120,112,0,0,0,0,-1,-1,-1,-1,112,112,112"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="valorBarba">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="com.sun.beans.editors.FontEditor">
+              <SerializedValue value="-84,-19,0,5,115,114,0,13,106,97,118,97,46,97,119,116,46,70,111,110,116,-59,-95,53,-26,-52,-34,86,115,3,0,6,73,0,25,102,111,110,116,83,101,114,105,97,108,105,122,101,100,68,97,116,97,86,101,114,115,105,111,110,70,0,9,112,111,105,110,116,83,105,122,101,73,0,4,115,105,122,101,73,0,5,115,116,121,108,101,76,0,20,102,82,101,113,117,101,115,116,101,100,65,116,116,114,105,98,117,116,101,115,116,0,21,76,106,97,118,97,47,117,116,105,108,47,72,97,115,104,116,97,98,108,101,59,76,0,4,110,97,109,101,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,120,112,0,0,0,1,65,96,0,0,0,0,0,14,0,0,0,0,112,116,0,6,68,105,97,108,111,103,120"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="com.sun.beans.editors.ColorEditor">
+              <SerializedValue value="-84,-19,0,5,115,114,0,14,106,97,118,97,46,97,119,116,46,67,111,108,111,114,1,-91,23,-125,16,-113,51,117,2,0,5,70,0,6,102,97,108,112,104,97,73,0,5,118,97,108,117,101,76,0,2,99,115,116,0,27,76,106,97,118,97,47,97,119,116,47,99,111,108,111,114,47,67,111,108,111,114,83,112,97,99,101,59,91,0,9,102,114,103,98,118,97,108,117,101,116,0,2,91,70,91,0,6,102,118,97,108,117,101,113,0,126,0,2,120,112,0,0,0,0,-1,-1,-1,-1,112,112,112"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Valor Barbas"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="valorBarbas">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="com.sun.beans.editors.FontEditor">
+              <SerializedValue value="-84,-19,0,5,115,114,0,13,106,97,118,97,46,97,119,116,46,70,111,110,116,-59,-95,53,-26,-52,-34,86,115,3,0,6,73,0,25,102,111,110,116,83,101,114,105,97,108,105,122,101,100,68,97,116,97,86,101,114,115,105,111,110,70,0,9,112,111,105,110,116,83,105,122,101,73,0,4,115,105,122,101,73,0,5,115,116,121,108,101,76,0,20,102,82,101,113,117,101,115,116,101,100,65,116,116,114,105,98,117,116,101,115,116,0,21,76,106,97,118,97,47,117,116,105,108,47,72,97,115,104,116,97,98,108,101,59,76,0,4,110,97,109,101,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,120,112,0,0,0,1,65,96,0,0,0,0,0,14,0,0,0,0,112,116,0,6,68,105,97,108,111,103,120"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="com.sun.beans.editors.ColorEditor">
+              <SerializedValue value="-84,-19,0,5,115,114,0,14,106,97,118,97,46,97,119,116,46,67,111,108,111,114,1,-91,23,-125,16,-113,51,117,2,0,5,70,0,6,102,97,108,112,104,97,73,0,5,118,97,108,117,101,76,0,2,99,115,116,0,27,76,106,97,118,97,47,97,119,116,47,99,111,108,111,114,47,67,111,108,111,114,83,112,97,99,101,59,91,0,9,102,114,103,98,118,97,108,117,101,116,0,2,91,70,91,0,6,102,118,97,108,117,101,113,0,126,0,2,120,112,0,0,0,0,-1,-1,-1,-1,112,112,112"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="1"/>
+          </Properties>
+        </Component>
+        <Component class="componentes.UJComboBox" name="comboMeses">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="12">
+                <StringItem index="0" value="Janeiro"/>
+                <StringItem index="1" value="Fevereiro"/>
+                <StringItem index="2" value="Mar&#xe7;o"/>
+                <StringItem index="3" value="Abril"/>
+                <StringItem index="4" value="Maio"/>
+                <StringItem index="5" value="Junho"/>
+                <StringItem index="6" value="Julho"/>
+                <StringItem index="7" value="Agosto"/>
+                <StringItem index="8" value="Setembro"/>
+                <StringItem index="9" value="Outubro"/>
+                <StringItem index="10" value="Novembro"/>
+                <StringItem index="11" value="Dezembro"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnSel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Selecionar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSelActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
